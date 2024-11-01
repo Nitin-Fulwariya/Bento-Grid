@@ -1,0 +1,104 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: #e7e0e059; */
+}
+
+.cards {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 75%;
+}
+
+.cards:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* gap: 50px; */
+    transform: scale(1.1);
+    transition: 500ms;
+    margin-block: 20px;
+}
+
+.card1 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(131, 10, 237, 0.885);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card1 img {
+    width: 50%;
+}
+
+.card2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(237, 229, 229, 0.84);
+    color: #333;
+}
+
+.card2 h2 {
+    align-self: flex-start;
+}
+
+.card2 img {
+    width: 100%;
+}
+
+.card3 {
+    background-color: rgba(255, 166, 0, 0.56);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card3 img {
+    width: 90%;
+}
+
+.card4 {
+    background-color: rgba(67, 42, 190, 0.596);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(252, 251, 251)
+}
+
+.card5 {
+    color: rgb(254, 251, 251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(124, 60, 179, 0.797);
+    text-align: center;
+}
+
+.card6 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.card6 h1 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.card7 {
+    background-color: rgb(252, 236, 173);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.card7 span {
+    color: rgb(160, 8, 184);
+}
+
+.card8 {
+    background-color: rgba(244, 188, 57, 0.871);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
